@@ -1,0 +1,10 @@
+[build]
+  # دایرکتوری که نتلیفی باید در آن کار کند
+  base = "/"  # اگر از دایرکتوری ریشه استفاده می‌کنید
+  # دایرکتوری خروجی برای پروژه Next.js
+  publish = ".next"  
+  # دستور ساخت
+  command = "npm run build"  
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"  # استفاده از پلاگین Next.js
