@@ -6,5 +6,4 @@
   # دستور ساخت
   command = "npm run build"  
 
-[[plugins]]
-  package = "@netlify/plugin-nextjs"  # استفاده از پلاگین Next.js
+
