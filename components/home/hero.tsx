@@ -101,15 +101,16 @@ const HeroSection = React.memo(() => {
           href="/hassankhodabakhshi_Resume.pdf"
         ></Button>
         <Button
-          classes="ml-3"
-          type={ButtonTypes.PRIMARY}
-          name="گفتگو"
-          href={SOCIAL_LINKS.topmate}
-          otherProps={{
-            target: "_blank",
-            rel: "noreferrer",
-          }}
-        ></Button>
+  classes="ml-3"
+  type={ButtonTypes.PRIMARY}
+  name="وبلاگ"
+  href="https://blog.isonetwork.ir/"  // اینجا لینک مورد نظر خود را قرار دهید
+  otherProps={{
+    target: "_blank",
+    rel: "noreferrer",
+  }}
+></Button>
+
       </div>
     </div>
   );

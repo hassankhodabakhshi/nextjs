@@ -41,15 +41,16 @@ const Footer = () => {
           href="/hassankhodabakhshi_Resume.pdf"
         ></Button>
         <Button
-          classes="ml-3"
-          type={ButtonTypes.WHITE}
-          name="گفتو"
-          href={SOCIAL_LINKS.topmate}
-          otherProps={{
-            target: "_blank",
-            rel: "noreferrer",
-          }}
-        ></Button>
+  classes="ml-3"
+  type={ButtonTypes.PRIMARY}
+  name="وبلاگ"
+  href="https://blog.isonetwork.ir/"  // اینجا لینک مورد نظر خود را قرار دهید
+  otherProps={{
+    target: "_blank",
+    rel: "noreferrer",
+  }}
+></Button>
+
       </div>
       <h2 className="text-center text-sm sm:text-base mt-8">
       .طراحی و توسعه داده شده با ❤️ توسط حسن خدابخشی
